@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black_shade_1"
     android:orientation="vertical"
-    tools:context=".HomeScreenActivity">
+    tools:context=".view.HomeScreenActivity">
 
     <!--linear layout for displaying search bar-->
     <LinearLayout

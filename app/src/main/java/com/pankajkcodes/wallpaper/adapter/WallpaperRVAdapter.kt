@@ -1,16 +1,16 @@
-package com.pankajkcodes.wallpaper
+package com.pankajkcodes.wallpaper.adapter
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
 import android.view.ViewGroup
 import android.view.LayoutInflater
-import com.pankajkcodes.wallpaper.R
 import com.bumptech.glide.Glide
 import android.content.Intent
 import android.view.View
 import android.widget.ImageView
-import com.pankajkcodes.wallpaper.WallpaperActivity
+import com.pankajkcodes.wallpaper.view.WallpaperActivity
 import androidx.cardview.widget.CardView
+import com.pankajkcodes.wallpaper.R
 import java.util.ArrayList
 
 class WallpaperRVAdapter     //creating a constructor.

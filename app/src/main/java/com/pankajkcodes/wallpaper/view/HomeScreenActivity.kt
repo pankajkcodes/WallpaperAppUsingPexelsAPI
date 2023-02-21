@@ -1,4 +1,4 @@
-package com.pankajkcodes.wallpaper
+package com.pankajkcodes.wallpaper.view
 
 import android.os.Bundle
 import android.view.View
@@ -13,7 +13,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.pankajkcodes.wallpaper.CategoryRVAdapter.CategoryClickInterface
+import com.pankajkcodes.wallpaper.adapter.CategoryRVAdapter
+import com.pankajkcodes.wallpaper.adapter.CategoryRVAdapter.CategoryClickInterface
+import com.pankajkcodes.wallpaper.model.CategoryRVModal
+import com.pankajkcodes.wallpaper.R
+import com.pankajkcodes.wallpaper.adapter.WallpaperRVAdapter
 import org.json.JSONException
 
 class HomeScreenActivity : AppCompatActivity(), CategoryClickInterface {

@@ -1,4 +1,4 @@
-package com.pankajkcodes.wallpaper
+package com.pankajkcodes.wallpaper.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.provider.MediaStore
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.pankajkcodes.wallpaper.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

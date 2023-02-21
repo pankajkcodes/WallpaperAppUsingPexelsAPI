@@ -1,17 +1,16 @@
-package com.pankajkcodes.wallpaper
+package com.pankajkcodes.wallpaper.adapter
 
-import com.pankajkcodes.wallpaper.CategoryRVModal
-import com.pankajkcodes.wallpaper.CategoryRVAdapter.CategoryClickInterface
+import com.pankajkcodes.wallpaper.model.CategoryRVModal
 import androidx.recyclerview.widget.RecyclerView
 import android.view.ViewGroup
 import android.view.LayoutInflater
-import com.pankajkcodes.wallpaper.R
 import android.annotation.SuppressLint
 import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import android.widget.TextView
+import com.pankajkcodes.wallpaper.R
 import java.util.ArrayList
 
 class CategoryRVAdapter     //creating a constructor.

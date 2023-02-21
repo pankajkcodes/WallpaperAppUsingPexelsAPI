@@ -1,4 +1,4 @@
-package com.pankajkcodes.wallpaper
+package com.pankajkcodes.wallpaper.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.app.WallpaperManager

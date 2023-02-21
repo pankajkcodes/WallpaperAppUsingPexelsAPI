@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:id="@+id/idRLWallpaper"
     android:layout_height="match_parent"
-    tools:context=".WallpaperActivity">
+    tools:context=".view.WallpaperActivity">
 
     <!--creating an image view for displaying image-->
     <ImageView
