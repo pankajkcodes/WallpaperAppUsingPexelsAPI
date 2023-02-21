@@ -100,14 +100,6 @@ class WallpaperActivity : AppCompatActivity() {
                     }
                 }
                 ).submit()
-            //displaying custom toast on below line.
-//                new StyleableToast
-//                        .Builder(WallpaperActivity.this)
-//                        .text("Wallpaper Set to Home Screen")
-//                        .textColor(Color.WHITE)
-//                        .backgroundColor(getResources().getColor(R.color.black_shade_1))
-//                        .show();
-//                FancyToast.makeText(WallpaperActivity.this, "Wallpaper Set to Home Screen", FancyToast.LENGTH_LONG, FancyToast.SUCCESS, false).show();
         }
     }
 }
