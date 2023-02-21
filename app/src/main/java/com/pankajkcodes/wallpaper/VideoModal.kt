@@ -1,9 +1,8 @@
-package com.pankajkcodes.wallpaper;
+package com.pankajkcodes.wallpaper
 
-import android.graphics.Bitmap;
+import android.graphics.Bitmap
 
-public class VideoModal {
-    private Bitmap thumbNailBitMap;
-    private String videoUrl;
-
+class VideoModal {
+    private val thumbNailBitMap: Bitmap? = null
+    private val videoUrl: String? = null
 }
